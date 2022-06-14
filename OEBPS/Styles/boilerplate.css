@@ -45,7 +45,6 @@ html {
   -ms-text-size-adjust: 100%;
 }
 body {
-  background-color: #F6F3E9;
   margin: 0;
   font-size: 13px;
   line-height: 1.231;
@@ -56,7 +55,6 @@ body {
   -webkit-line-break: auto;
 }
 body, button, input, select, textarea {
-  background-color: #F6F3E9;
   font-family: "Noto Serif TC Medium", "微軟正黑體", "新細明體", "細明體", "細明體-ExtB", Verdana, Arial, Helvetica, sans-serif;
   letter-spacing: 1px;
   color: #222;
