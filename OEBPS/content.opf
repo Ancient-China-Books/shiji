@@ -8,7 +8,7 @@
     <dc:publisher>台灣商務印書館</dc:publisher>
     <dc:description>&lt;div&gt;
 &lt;p&gt;《史記》原名《太史公書》，東漢末始稱《史記》。它是古代第一部由個人獨力完成的具有完整體系的著作。記載了上自中國上古傳說中的黃帝時代，下至漢武帝元狩元年，共三千多年的歷史。全書包括12本紀、30世家、70列傳、10表、8書，共130篇，五十二萬六千五百餘字。作者司馬遷以其「究天人之際，通古今之變，成一家之言」的史識，使《史記》成為中國第一部，也是最出名的紀傳體通史。《史記》對後世史學和文學的發展都產生了深遠影響。其首創的紀傳體編史方法為後來歷代「正史」所傳承。同時，《史記》還被認為是一部優秀的文學著作，在中國文學史上有重要地位。&lt;/p&gt;&lt;/div&gt;</dc:description>
-    <dc:contributor opf:role="bkp">calibre (5.43.0) [https://calibre-ebook.com]</dc:contributor>
+    <dc:contributor opf:role="bkp">calibre (5.44.0) [https://calibre-ebook.com]</dc:contributor>
     <dc:subject>百衲本</dc:subject>
     <dc:subject>史记</dc:subject>
     <dc:subject>历史</dc:subject>
@@ -20,7 +20,7 @@
     <dc:subject>影印本</dc:subject>
     <dc:subject>史學</dc:subject>
     <dc:language>zh</dc:language>
-    <dc:identifier opf:scheme="calibre">b9b691bb-b007-4fdb-9022-04ff4ecce003</dc:identifier>
+    <dc:identifier opf:scheme="calibre">731e815c-9822-44dc-a1f7-9badf815c717</dc:identifier>
     <dc:identifier opf:scheme="NEW_DOUBAN">5394619</dc:identifier>
     <dc:identifier opf:scheme="ISBN">9789570525229</dc:identifier>
     <meta name="calibre:title_sort" content="史記-漢川草廬"/>

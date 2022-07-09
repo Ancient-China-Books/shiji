@@ -1,15 +1,3 @@
-@charset "utf-8";
-/* 簡單流變媒體
-   注意: 流變媒體要求您必須移除 HTML 中媒體的高度和寬度屬性
-   http://www.alistapart.com/articles/fluid-images/ 
-*/
-img, object, embed, video {
-  max-width: 100%;
-}
-/* IE 6 不支援最大寬度，因此寬度預設為 100%
-.ie6 img {
-	width:100%;
-} */
 @font-face {
   src: url(../NotoSerifTC-Medium.otf);
   font-family: "Noto Serif TC Medium";
@@ -40,18 +28,6 @@ img, object, embed, video {
   padding-left: 1.82%;
   padding-right: 1.82%;
 }
-.SearchStyle {
-  background-color: #45557A;
-  margin: 0 5% 0 3%;
-  font-size: 85%;
-}
-#L3_NAV {
-  clear: both;
-  float: left;
-  margin-left: 0;
-  width: 100%;
-  display: block;
-}
 #Main {
   clear: both;
   float: left;
@@ -74,94 +50,6 @@ img, object, embed, video {
   margin:15px 0;   
   background:#fdfdfd;*/
 }
-#L5_T1 {
-  clear: both;
-  float: left;
-  margin-left: 0;
-  padding-top: 20px;
-  width: 97%;
-  display: block;
-}
-#L5_T2 {
-  clear: both;
-  float: left;
-  margin-left: 0;
-  width: 97%;
-  display: block;
-}
-#L5_T3 {
-  clear: both;
-  float: left;
-  margin-left: 0;
-  width: 97%;
-  display: block;
-}
-#L6_T4 {
-  clear: both;
-  float: left;
-  margin-left: 0;
-  width: 97%;
-  display: block;
-}
-#L6_T5 {
-  clear: both;
-  float: left;
-  margin-left: 0;
-  width: 97%;
-  display: block;
-}
-#L6_T6 {
-  clear: both;
-  float: left;
-  margin-left: 0;
-  width: 97%;
-  display: block;
-}
-#L7_F1 {
-  clear: both;
-  float: left;
-  margin-left: 0;
-  padding: 15px 10%;
-  width: 80%;
-  display: block;
-  background: -moz-radial-gradient(center, ellipse cover, rgba(76, 90, 130, 0.95) 0%, rgba(103, 125, 175, 0.96) 100%);
-  /* FF3.6-15 */
-  background: -webkit-radial-gradient(center, ellipse cover, rgba(76, 90, 130, 0.95) 0%, rgba(103, 125, 175, 0.96) 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: radial-gradient(ellipse at center, rgba(76, 90, 130, 0.95) 0%, rgba(103, 125, 175, 0.96) 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  /* IE6-9 fallback on horizontal gradient */
-}
-#L7_F2 {
-  clear: both;
-  float: left;
-  margin-left: 0;
-  padding: 15px 10%;
-  width: 80%;
-  display: block;
-  background: -moz-radial-gradient(center, ellipse cover, rgba(76, 90, 130, 0.95) 0%, rgba(103, 125, 175, 0.96) 100%);
-  /* FF3.6-15 */
-  background: -webkit-radial-gradient(center, ellipse cover, rgba(76, 90, 130, 0.95) 0%, rgba(103, 125, 175, 0.96) 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: radial-gradient(ellipse at center, rgba(76, 90, 130, 0.95) 0%, rgba(103, 125, 175, 0.96) 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  /* IE6-9 fallback on horizontal gradient */
-}
-#L7_F3 {
-  clear: both;
-  float: left;
-  margin-left: 0;
-  padding: 15px 10%;
-  width: 80%;
-  display: block;
-  background: -moz-radial-gradient(center, ellipse cover, rgba(76, 90, 130, 0.95) 0%, rgba(103, 125, 175, 0.96) 100%);
-  /* FF3.6-15 */
-  background: -webkit-radial-gradient(center, ellipse cover, rgba(76, 90, 130, 0.95) 0%, rgba(103, 125, 175, 0.96) 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: radial-gradient(ellipse at center, rgba(76, 90, 130, 0.95) 0%, rgba(103, 125, 175, 0.96) 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  /* IE6-9 fallback on horizontal gradient */
-}
 /* 表格版面: 481px 到 768px。樣式繼承自: 行動版面。 */
 /* 桌面版面: 769px 到最大 1232px。樣式繼承自: 行動版面和表格版面。 */
 @media only screen and (min-width: 769px) {
@@ -169,18 +57,6 @@ img, object, embed, video {
     width: 100%;
     padding: 0;
     margin: 0;
-  }
-  .SearchStyle {
-    background-color: #45557A;
-    margin: 0 1% 0 67%;
-    font-size: 85%;
-  }
-  #L3_NAV {
-    clear: both;
-    float: left;
-    margin-left: 0;
-    width: 100%;
-    display: block;
   }
   #Main {
     clear: both;
@@ -204,108 +80,4 @@ img, object, embed, video {
     margin:15px 10%;   
     background:#fdfdfd;*/
   }
-  #L5_T1 {
-    clear: both;
-    float: left;
-    margin-left: 10%;
-    padding-top: 3em;
-    width: 24%;
-    display: block;
-  }
-  #L5_T2 {
-    clear: none;
-    float: left;
-    margin-left: 4%;
-    padding-top: 3em;
-    width: 24%;
-    display: block;
-  }
-  #L5_T3 {
-    clear: none;
-    float: left;
-    margin: 0 10% 0 4%;
-    padding-top: 3em;
-    width: 24%;
-    display: block;
-  }
-  #L6_T4 {
-    clear: both;
-    float: left;
-    margin-left: 10%;
-    width: 24%;
-    display: block;
-  }
-  #L6_T5 {
-    clear: none;
-    float: left;
-    margin-left: 4%;
-    width: 24%;
-    display: block;
-  }
-  #L6_T6 {
-    clear: none;
-    float: left;
-    margin: 0 10% 0 4%;
-    width: 24%;
-    display: block;
-  }
-  #L7_F1 {
-    clear: both;
-    float: left;
-    margin-left: 0;
-    padding: 15px 0 20px 16%;
-    width: 20%;
-    height: 230px;
-    display: block;
-  }
-  #L7_F2 {
-    clear: none;
-    float: left;
-    margin-left: 0;
-    padding: 15px 0 20px 5%;
-    width: 20%;
-    height: 230px;
-    display: block;
-  }
-  #L7_F3 {
-    clear: none;
-    float: left;
-    margin-left: 0;
-    padding: 15px 14% 20px 5%;
-    width: 20%;
-    height: 230px;
-    display: block;
-  }
-}
-.tul {
-  text-decoration: underline solid #966;
-}
-.twy {
-  text-decoration: underline solid #966;
-  text-decoration-style: wavy;
-}
-.style_lcx_yi {
-  font-size: 75%;
-  color: #d33;
-  font-family: "Noto Serif TC Medium";
-}
-.chapter {
-  text-align: left;
-  font-family: "Noto Serif TC Medium";
-  color: #069;
-  display: block;
-  font-weight: normal;
-  font-size: 1.375em;
-  line-height: 120%;
-  margin: 1em 0 0.5em 0;
-}
-.juan {
-  color: rgba(240, 0, 0, 0.7);
-  text-align: left;
-  display: block;
-  font-size: 1.3em;
-  font-weight: normal;
-  line-height: 110%;
-  font-family: "Noto Serif TC Medium";
-  margin: 0;
 }

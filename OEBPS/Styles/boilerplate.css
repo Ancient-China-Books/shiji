@@ -18,18 +18,6 @@
 /* =============================================================================
    HTML5 顯示定義
    ========================================================================== */
-article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
-  display: block;
-}
-audio, canvas, video {
-  display: inline-block;
-}
-audio:not([controls]) {
-  display: none;
-}
-[hidden] {
-  display: none;
-}
 /* =============================================================================
    基底
    ========================================================================== */
@@ -45,19 +33,8 @@ html {
   -ms-text-size-adjust: 100%;
 }
 body {
-  margin: 0;
-  font-size: 13px;
-  line-height: 1.231;
-  writing-mode: horizontal-tb;
-  -epub-writing-mode: horizontal-tb;
-  -webkit-writing-mode: horizontal-tb;
-  line-break: auto;
-  -webkit-line-break: auto;
-}
-body, button, input, select, textarea {
-  font-family: "Noto Serif TC Medium", "微軟正黑體", "新細明體", "細明體", "細明體-ExtB", Verdana, Arial, Helvetica, sans-serif;
+  font-family: "Noto Serif TC Medium", serif;
   letter-spacing: 1px;
-  color: #222;
   font-size: 100%;
   line-height: 170%;
   writing-mode: horizontal-tb;
@@ -78,111 +55,23 @@ body, button, input, select, textarea {
 /* =============================================================================
    連結
    ========================================================================== */
-a {
-  color: #ccc;
-  text-decoration: none;
-}
-a:visited {
-  color: #ccc;
-}
-a:hover {
-  color: #F90;
-}
-a:focus {
-  outline: thin dotted;
-}
 /* 改善當停留並將焦點放在所有瀏覽器時的可讀性: h5bp.com/h */
-a:hover, a:active {
-  outline: 0;
-}
-a img {
-  border: 0;
-}
 /* =============================================================================
    印刷樣式
    ========================================================================== */
-abbr[title] {
-  border-bottom: 1px dotted;
-}
-b, strong {
-  font-weight: bold;
-}
-blockquote {
-  margin: 1em 40px;
-}
-dfn {
-  font-style: italic;
-}
 hr {
   display: block;
   height: 1px;
   border: 0;
   border-top: 1px solid #ccc;
-  margin: 0 1%;
   padding: 0;
 }
-ins {
-  background: #ff9;
-  color: #000;
-  text-decoration: none;
-}
-mark {
-  background: #ff0;
-  color: #000;
-  font-style: italic;
-  font-weight: bold;
-}
 /* 重新宣告固定寬度字體系列: h5bp.com/j */
-pre, code, kbd, samp {
-  font-family: monospace, monospace;
-  _font-family: "courier new", monospace;
-  font-size: 1em;
-}
 /* 改善所有瀏覽器中預先格式化之文字的可讀性 */
-pre {
-  white-space: pre;
-  white-space: pre-wrap;
-  word-wrap: break-word;
-}
-q {
-  quotes: none;
-}
-q:before, q:after {
-  content: "";
-  content: none;
-}
-small {
-  font-size: 85%;
-}
 /* 放置下標字和上標字內容，而不影響行高: h5bp.com/k */
-sub, sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
-sup {
-  top: -0.5em;
-}
-sub {
-  bottom: -0.25em;
-}
 /* =============================================================================
    清單
    ========================================================================== */
-ul, ol {
-  margin: 1em 0;
-  padding: 0 0 0 40px;
-}
-dd {
-  margin: 0 0 0 40px;
-}
-nav ul, nav ol {
-  list-style: none;
-  list-style-image: none;
-  margin: 0;
-  padding: 0;
-}
 /* =============================================================================
    內嵌內容
    ========================================================================== */
@@ -198,55 +87,26 @@ img {
 /*
  * 修正 IE9 中未隱藏的溢位 
  */
-svg:not(:root) {
-  overflow: hidden;
-}
 /* =============================================================================
    圖表
    ========================================================================== */
-figure {
-  margin: 0;
-}
 /* =============================================================================
    表單
    ========================================================================== */
-form {
-  margin: 0;
-}
-fieldset {
-  border: 0;
-  margin: 0;
-  padding: 0;
-}
 /* 表示「label」會將焦點移至相關聯的表單元素 */
-label {
-  cursor: pointer;
-}
 /* 
  * 1. 修正 IE6/7/8/9 中非繼承的顏色 
  * 2. 修正 IE6/7 中顯示異常的對齊 
  */
-legend {
-  border: 0;
-  padding: 0;
-}
 /*
  * 1. 修正所有瀏覽器中非繼承的字體大小
  * 2. 移除 FF3/4 S5 Chrome 中的邊界
  * 3. 在所有瀏覽器中定義一致的垂直對齊顯示
  */
-button, input, select, textarea {
-  font-size: 100%;
-  margin: 0;
-  vertical-align: baseline;
-}
 /*
  * 1. 將行高定義為一般，以符合 FF3/4 (使用 UA 樣式表中的 !important 來設定)
  * 2. 修正 IE6/7 中顯示異常的內部間距
  */
-button, input {
-  line-height: normal;
-}
 /*
  * 在「table」中重新加入內部間距，以避免 IE6/7 中的重疊和空白問題
  */
@@ -254,22 +114,9 @@ button, input {
  * 1. 顯示手掌游標，表示可點選的表單元素
  * 2. 允許 iOS 中可點選之表單元素的樣式
  */
-button, input[type="button"], input[type="reset"], input[type="submit"] {
-  cursor: pointer;
-  -webkit-appearance: button;
-}
 /*
  * 一致的方塊大小和外觀
  */
-input[type="checkbox"], input[type="radio"] {
-  box-sizing: border-box;
-}
-input[type="search"] {
-  -webkit-appearance: textfield;
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
-  box-sizing: content-box;
-}
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
@@ -284,11 +131,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * 1. 移除 IE6/7/8/9 中的預設垂直捲軸 
  * 2. 僅允許垂直調整大小
  */
-textarea {
-  overflow: auto;
-  vertical-align: top;
-  resize: vertical;
-}
 /* 表單有效性的色彩 */
 input:invalid, textarea:invalid {
   background-color: #f0dddd;
@@ -303,7 +145,7 @@ table {
 td {
   vertical-align: top;
 }
-.tableaa, .tableb, .tablebb {
+.tableaa {
   margin: 10px 4% 20px 4%;
   width: 92%;
   font-size: 95%;
@@ -311,116 +153,21 @@ td {
   line-height: 100%;
   letter-spacing: 0;
 }
-.tableaa td, .tableb td {
+.tableaa td {
   padding: 10px;
   border: 1px solid #b9ccf9;
   vertical-align: middle;
 }
-.tablebb td {
-  padding: 8px 5px;
-  border: 1px solid #b9ccf9;
-  letter-spacing: 1px;
-  line-height: 140%;
-  font-size: 90%;
-}
-.tableaa td a, .tableb td a, .tablebb td a {
-  font-weight: 550;
-}
 /* ==|== 主要樣式 =====================================================
    作者: 
    ========================================================================== */
-#L2_LOGO {
-  padding-top: 8px;
-  font-size: 95%;
-  letter-spacing: 2px;
-}
-.headerStyle {
-  color: #C0BAB6;
-  margin: 0;
-  padding: 0 0 2em 10%;
-  background: rgb(63, 76, 107);
-  /* Old browsers */
-  background: -moz-linear-gradient(left, rgba(63, 76, 107, 1) 0%, rgba(96, 117, 163, 1) 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, rgba(63, 76, 107, 1) 0%, rgba(96, 117, 163, 1) 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, rgba(63, 76, 107, 1) 0%, rgba(96, 117, 163, 1) 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  /* IE6-9 */
-}
 h1 {
-  font-size: 2.6em;
+  font-size: x-large;
   letter-spacing: 3px;
-  margin: 30px 0 0 0;
+  margin: 0;
   padding: 0;
-}
-h2 {
-  font-size: 115%;
-  color: #3E5982;
-  margin-top: 30px;
-  margin-bottom: 15px;
-  padding-left: 4%;
-}
-h3 {
-  font-size: 120%;
-  color: #3853cf;
-  padding-left: 4%;
-}
-h5 {
-  font-size: 125%;
-  padding-left: 4%;
-  color: rgba(240, 0, 0, 0.7);
-  display: inline;
-}
-h6 {
-  font-size: 105%;
-  margin: 30px 4% 0 4%;
-  padding: 0;
-  color: #3853CF;
-}
-.navStyle {
-  background: #45557A;
-}
-.navStyle ul {
-  margin: 0 10%;
-  padding: 0;
-}
-.secStyle {
-  margin: 30px 0;
-  padding: 20px 0;
-}
-.secStyle img {
-  width: 50px;
-  margin-right: 20px;
-}
-.T1 {
-  font-size: 1.05em;
-  color: #DFDFDF;
-  font-weight: 600;
-  letter-spacing: 3px;
-  line-height: 130%;
-}
-.T2 {
-  font-size: 0.85em;
-  font-weight: 500;
-  letter-spacing: 1px;
-  line-height: 165%;
-  margin-top: 5px;
-}
-.T2 a {
-  color: #DFDFDF;
-}
-.T2 a:hover {
-  color: #F90;
 }
 /*****MAIN STYLE *********/
-.main a {
-  color: #7474DF;
-  font-weight: 550;
-}
-.main a:hover {
-  color: #F90;
-}
 /*************story **********/
 .story {
   margin: 0;
@@ -428,36 +175,12 @@ h6 {
   text-align: justify;
   word-wrap: break-word;
   word-break: break-all;
-  font-family: "Noto Serif TC Medium", "微軟正黑體", "新細明體", "細明體", "細明體-ExtB", Verdana, Arial, Helvetica, sans-serif;
   letter-spacing: 1px;
   font-size: 105%;
   margin: 0 1%;
 }
 .story p {
   padding: 10px 4% 0 4%;
-}
-.story blockquote {
-  margin: 0;
-  padding: 0 2% 10px 1%;
-  text-indent: 4%;
-}
-.story ul {
-  margin: 20px 4% 0 6%;
-}
-.story ul li, ul li p {
-  margin: 10px 0 20px -4%;
-}
-.b1Img {
-  margin: 20px 0 0 4%;
-  line-height: 100%;
-}
-.story img {
-  border: 0;
-  vertical-align: middle;
-  width: auto;
-  height: auto;
-  max-height: 80%;
-  max-width: 80%;
 }
 /*************feature{ **********/
 .feature {
@@ -468,15 +191,6 @@ h6 {
   word-break: break-all;
   font-size: 110%;
   letter-spacing: 1px;
-  font-family: "Noto Serif TC Medium", "微軟正黑體", "新細明體", "細明體", "細明體-ExtB", Verdana, Arial, Helvetica, sans-serif;
-}
-.feature p {
-  padding: 10px 4% 0 4%;
-}
-.feature blockquote {
-  margin: 0;
-  padding: 0 0.4%;
-  text-indent: 4%;
 }
 .feature img {
   border: 0;
@@ -487,42 +201,22 @@ h6 {
   max-width: 80%;
 }
 .feature table {
-  margin: 10px 4%;
-  width: 92%;
   font-size: 95%;
 }
 /************************************/
-.inde {
-  text-indent: -2.15em;
-  margin-left: 2.15em;
-}
 .style2 {
   font-size: 115%;
   color: rgba(240, 0, 0, 0.7);
   padding: 0 0 0 4%;
   font-weight: 550;
 }
-.style3 {
-  color: #444;
-  font-size: 85%;
-}
 .style4 {
   color: #6972dc;
-  font-weight: 550;
-}
-.style6 {
-  font-size: 105%;
-  color: #3C5084;
   font-weight: 550;
 }
 .style7 {
   font-size: 85%;
   color: #069;
-  font-family: "Noto Serif TC Medium";
-}
-.style7 td {
-  text-align: left;
-  letter-spacing: 0;
 }
 .style8 {
   color: #777;
@@ -542,48 +236,14 @@ h6 {
   margin: 0;
   padding: 5px;
 }
-.style10 img {
-  border: 0;
-  vertical-align: middle;
-}
-.style10 table {
-  margin: 0 4%;
-  width: 92%;
-  letter-spacing: 0;
-  text-align: left;
-}
 .style10 td {
   padding: 5px;
   font-size: 85%;
   border: #b9ccf9 1px solid;
   letter-spacing: 0;
 }
-.style10 ul {
-  margin: 0;
-  padding: 0 3px 0 15px;
-}
-.style10 li {
-  margin: 0;
-  padding: 5px 0 5px 0;
-}
 .style11 {
-  color: #069;
-  font-size: 85%;
-  font-weight: 550;
-}
-.style12 {
-  font-size: 85%;
-  color: #069;
-}
-.style13 {
-  color: #069;
-}
-.style15 {
-  color: #3853cf;
-}
-.style16 {
-  color: #3853cf;
-  margin-left: 4%;
+  font-weight: 600;
 }
 .style17 {
   color: #666;
@@ -592,79 +252,15 @@ h6 {
   float: right;
   margin-right: 4%;
 }
-.style18 {
-  color: #aaa;
-  font-size: 80%;
-  display: inline;
-  float: right;
-  margin-right: 2%;
-}
-img.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
 /************** .poem styles *****************/
-.poem {
-  padding: 0;
-  font-family: "Noto Serif TC Medium", "微軟正黑體", Verdana, Arial, sans-serif;
-  font-size: 110%;
-  line-height: 170%;
-}
-.poem p {
-  padding: 10px 4% 0 4%;
-  margin: 0;
-}
-.poem img {
-  border: 0;
-  vertical-align: middle;
-}
 /* ==|== 非語意的 helper 類別 ========================================
    在進入此區段之前，請先定義您的樣式。
    ========================================================================== */
 /* 用於影像取代 */
-.ir {
-  display: block;
-  border: 0;
-  text-indent: -999em;
-  overflow: hidden;
-  background-color: transparent;
-  background-repeat: no-repeat;
-  text-align: left;
-  direction: ltr;
-}
-.ir br {
-  display: none;
-}
 /* 同時在螢幕讀取器和瀏覽器中隱藏: h5bp.com/u */
-.hidden {
-  display: none !important;
-  visibility: hidden;
-}
 /* 僅垂直隱藏，但在螢幕讀取器中提供使用: h5bp.com/v */
-.visuallyhidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-}
 /* 擴充 .visuallyhidden 類別，以允許元素可在透過鍵盤瀏覽時取得焦點: h5bp.com/p */
-.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  width: auto;
-}
 /* 垂直隱藏且在螢幕讀取器中隱藏，但保留版面 */
-.invisible {
-  visibility: hidden;
-}
 /* 包含浮動: h5bp.com/q */
 .clearfix:before, .clearfix:after {
   content: "";
@@ -727,3 +323,4 @@ img.center {
     page-break-after: avoid;
   }
 }
+
