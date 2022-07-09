@@ -37,10 +37,15 @@ body {
   letter-spacing: 1px;
   font-size: 100%;
   line-height: 170%;
-  writing-mode: horizontal-tb;
-  -epub-writing-mode: horizontal-tb;
-  -webkit-writing-mode: horizontal-tb;
   line-break: auto;
+  text-align: left;
+  writing-mode: horizontal-tb;
+  -webkit-writing-mode: horizontal-tb;
+  -epub-writing-mode: horizontal-tb;
+  -webkit-margin-start: 1.5em;
+  -webkit-margin-end: 0.8em;
+  -webkit-margin-before: 0.2em;
+  -webkit-margin-after: 0.2em;
   -webkit-line-break: auto;
 }
 /* 
