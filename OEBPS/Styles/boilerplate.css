@@ -33,7 +33,7 @@ html {
   -ms-text-size-adjust: 100%;
 }
 body {
-  font-family: "Noto Serif TC Medium", serif;
+  font-family: "Noto Serif TC Medium", FSung-2, FSung-F, serif;
   letter-spacing: 1px;
   font-size: 100%;
   line-height: 170%;

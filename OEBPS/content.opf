@@ -173,17 +173,7 @@
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
     <item id="boilerplate.css" href="Styles/boilerplate.css" media-type="text/css"/>
     <item id="Layout01.css" href="Styles/Layout01.css" media-type="text/css"/>
-    <item id="id7" href="Images/0001.gif" media-type="image/gif"/>
-    <item id="id6" href="Images/1013.gif" media-type="image/gif"/>
-    <item id="id4" href="Images/1013.jpg" media-type="image/jpeg"/>
-    <item id="id2" href="Images/1014.jpg" media-type="image/jpeg"/>
     <item id="id11" href="Images/1087.gif" media-type="image/gif"/>
-    <item id="id10" href="Images/13-4c5b.gif" media-type="image/gif"/>
-    <item id="id12" href="Images/26fc6.gif" media-type="image/gif"/>
-    <item id="id5" href="Images/2c387.png" media-type="image/png"/>
-    <item id="id3" href="Images/2f9fe.gif" media-type="image/gif"/>
-    <item id="id9" href="Images/4c50.gif" media-type="image/gif"/>
-    <item id="id13" href="Images/4c95.gif" media-type="image/gif"/>
     <item id="id8" href="Images/a0101.gif" media-type="image/gif"/>
     <item href="OEBPS/cover.jpg" id="cover" media-type="image/jpeg"/>
     <item id="id" href="NotoSerifTC-Medium.otf" media-type="application/vnd.ms-opentype"/>
