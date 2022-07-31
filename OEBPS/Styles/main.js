@@ -1,9 +1,7 @@
 function changeColor(e) {
-  var href = e.href.split('#');
-  var p = document.getElementById(href[1]);
-  p.style.backgroundColor = '#f1e5c9';
+  window.location.replace(e.href);
   window.location.reload();
-  return true;
+  return false;
 }
 
 window.onload = function() {
