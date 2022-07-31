@@ -10,7 +10,7 @@
 &lt;p&gt;《史記》原名《太史公書》，東漢末始稱《史記》。它是古代第一部由個人獨力完成的具有完整體系的著作。記載了上自中國上古傳說中的黃帝時代，下至漢武帝元狩元年，共三千多年的歷史。全書包括12本紀、30世家、70列傳、10表、8書，共130篇，五十二萬六千五百餘字。作者司馬遷以其「究天人之際，通古今之變，成一家之言」的史識，使《史記》成為中國第一部，也是最出名的紀傳體通史。《史記》對後世史學和文學的發展都產生了深遠影響。其首創的紀傳體編史方法為後來歷代「正史」所傳承。同時，《史記》還被認為是一部優秀的文學著作，在中國文學史上有重要地位。&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;p&gt;本電子書&lt;span style="font-family: '-apple-system','BlinkMacSystemFont','Segoe UI','Helvetica','Arial','sans-serif','Apple Color Emoji','Segoe UI Emoji'; font-size: 16px; color: #24292f; background-color: #ffffff"&gt;基於「&lt;/span&gt;&lt;a href="http://www.sidneyluo.net/a/a01/a01.htm"&gt;&lt;span style="font-family: '-apple-system','BlinkMacSystemFont','Segoe UI','Helvetica','Arial','sans-serif','Apple Color Emoji','Segoe UI Emoji'; font-size: 16px; color: #2980b9; background-color: #ffffff"&gt;漢川草廬&lt;/span&gt;&lt;/a&gt;&lt;span style="font-family: '-apple-system','BlinkMacSystemFont','Segoe UI','Helvetica','Arial','sans-serif','Apple Color Emoji','Segoe UI Emoji'; font-size: 16px; color: #24292f; background-color: #ffffff"&gt;」重製電子版。&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</dc:description>
-    <dc:contributor opf:role="bkp">calibre (5.44.0) [https://calibre-ebook.com]</dc:contributor>
+    <dc:contributor opf:role="bkp">calibre (6.2.1) [https://calibre-ebook.com]</dc:contributor>
     <dc:subject>百衲本</dc:subject>
     <dc:subject>史记</dc:subject>
     <dc:subject>历史</dc:subject>
@@ -22,7 +22,7 @@
     <dc:subject>影印本</dc:subject>
     <dc:subject>史學</dc:subject>
     <dc:language>zh</dc:language>
-    <dc:identifier opf:scheme="calibre">6dd4a962-4161-40ac-86ef-42ef18bd91ad</dc:identifier>
+    <dc:identifier opf:scheme="calibre">f0e19d34-fe75-4eb0-be16-d8dfa21365cf</dc:identifier>
     <dc:identifier opf:scheme="NEW_DOUBAN">5394619</dc:identifier>
     <dc:identifier opf:scheme="ISBN">9789570525229</dc:identifier>
     <meta name="calibre:title_sort" content="史記"/>
@@ -175,10 +175,12 @@
     <item id="Layout01.css" href="Styles/Layout01.css" media-type="text/css"/>
     <item id="id8" href="Images/a0101.gif" media-type="image/gif"/>
     <item href="OEBPS/cover.jpg" id="cover" media-type="image/jpeg"/>
+    <item id="id2" href="FSung-2.ttf" media-type="application/x-font-truetype"/>
+    <item id="id3" href="FSung-F.ttf" media-type="application/x-font-truetype"/>
     <item id="id" href="NotoSerifTC-Medium.otf" media-type="application/vnd.ms-opentype"/>
+    <item id="id4" href="Styles/main.js" media-type="application/javascript"/>
   </manifest>
   <spine toc="ncx" page-progression-direction="ltr">
-    <itemref idref="id14"/>
     <itemref idref="a01.htm"/>
     <itemref idref="x131.htm"/>
     <itemref idref="x132.htm"/>
