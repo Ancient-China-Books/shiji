@@ -13,7 +13,7 @@
   <navMap>
     <navPoint id="num_1" playOrder="1">
       <navLabel>
-        <text>史記</text>
+        <text>前言</text>
       </navLabel>
       <content src="Text/a01.htm"/>
     </navPoint>
