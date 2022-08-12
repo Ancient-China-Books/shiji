@@ -11,12 +11,6 @@
     <text>史記</text>
   </docTitle>
   <navMap>
-    <navPoint id="num_1" playOrder="1">
-      <navLabel>
-        <text>前言</text>
-      </navLabel>
-      <content src="Text/a01.htm"/>
-    </navPoint>
     <navPoint id="num_2" playOrder="2">
       <navLabel>
         <text>史記集解序</text>
