@@ -2,34 +2,27 @@
 <package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="uTYxUxj8FQqUHKlf6ACUSyB">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
     <dc:title>史記</dc:title>
-    <dc:creator opf:role="aut" opf:file-as="司馬遷">司馬遷</dc:creator>
-    <dc:date>2010-08-31T16:00:00+00:00</dc:date>
+    <dc:creator opf:role="aut" opf:file-as="司馬遷 &amp; 裴駰 &amp; 司馬貞 &amp; 張守節">司馬遷</dc:creator>
+    <dc:creator opf:role="aut">裴駰</dc:creator>
+    <dc:creator opf:role="aut">司馬貞</dc:creator>
+    <dc:creator opf:role="aut">張守節</dc:creator>
+    <dc:date>0101-01-01T00:00:00+00:00</dc:date>
     <dc:identifier id="uTYxUxj8FQqUHKlf6ACUSyB" opf:scheme="uuid">uTYxUxj8FQqUHKlf6ACUSyB</dc:identifier>
-    <dc:publisher>台灣商務印書館</dc:publisher>
     <dc:description>&lt;div&gt;
-&lt;p&gt;《史記》原名《太史公書》，東漢末始稱《史記》。它是古代第一部由個人獨力完成的具有完整體系的著作。記載了上自中國上古傳說中的黃帝時代，下至漢武帝元狩元年，共三千多年的歷史。全書包括12本紀、30世家、70列傳、10表、8書，共130篇，五十二萬六千五百餘字。作者司馬遷以其「究天人之際，通古今之變，成一家之言」的史識，使《史記》成為中國第一部，也是最出名的紀傳體通史。《史記》對後世史學和文學的發展都產生了深遠影響。其首創的紀傳體編史方法為後來歷代「正史」所傳承。同時，《史記》還被認為是一部優秀的文學著作，在中國文學史上有重要地位。&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;本電子書&lt;span style="font-family: '-apple-system','BlinkMacSystemFont','Segoe UI','Helvetica','Arial','sans-serif','Apple Color Emoji','Segoe UI Emoji'; font-size: 16px; color: #24292f; background-color: #ffffff"&gt;基於「&lt;/span&gt;&lt;a href="http://www.sidneyluo.net/a/a01/a01.htm"&gt;&lt;span style="font-family: '-apple-system','BlinkMacSystemFont','Segoe UI','Helvetica','Arial','sans-serif','Apple Color Emoji','Segoe UI Emoji'; font-size: 16px; color: #2980b9; background-color: #ffffff"&gt;漢川草廬&lt;/span&gt;&lt;/a&gt;&lt;span style="font-family: '-apple-system','BlinkMacSystemFont','Segoe UI','Helvetica','Arial','sans-serif','Apple Color Emoji','Segoe UI Emoji'; font-size: 16px; color: #24292f; background-color: #ffffff"&gt;」重製電子版。&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</dc:description>
-    <dc:contributor opf:role="bkp">calibre (6.2.1) [https://calibre-ebook.com]</dc:contributor>
+&lt;p&gt;太史公書之專稱。漢司馬遷著，一百三十篇。原名太史公書。自隋書經籍志標立史部，以史記居首，遂成定名。記事起自黃帝，止於漢武，首尾共約三千年。採用本紀、表、書、世家、列傳體裁，是我國第一部紀傳體通史。取材豐富，保存了古代至漢武時止的較爲系統的珍貴資料。文字語言生動、形象鮮明，在文學史上也有重要地位。據漢書司馬遷傳説原書有十篇“有錄無書”，三國魏張晏説亡失的十篇爲景紀、武紀、禮書、樂書、兵書(律書)、漢興以來將相年表、日者傳、三王世家、龜策列傳、傅靳列傳。元帝成帝間，博士褚少孫補寫各篇。後人爲本書注釋的主要有南朝宋裴駰的史記集解、唐司馬貞的史記索隱、張守節的史記正義，至北宋時，開始把三家注散列在正文下，合爲一編。通行的有殿本、百衲本，新中國成立後中華書局出版了校點本。&lt;/p&gt;
+&lt;p&gt;本電子書基於「漢川草廬」重製電子版。&lt;/p&gt;&lt;/div&gt;</dc:description>
+    <dc:contributor opf:role="bkp">calibre (6.3.0) [https://calibre-ebook.com]</dc:contributor>
     <dc:subject>百衲本</dc:subject>
-    <dc:subject>史记</dc:subject>
-    <dc:subject>历史</dc:subject>
+    <dc:subject>史記</dc:subject>
     <dc:subject>二十四史</dc:subject>
-    <dc:subject>百衲本百衲本</dc:subject>
-    <dc:subject>司马迁</dc:subject>
-    <dc:subject>漢</dc:subject>
-    <dc:subject>歷史</dc:subject>
-    <dc:subject>影印本</dc:subject>
-    <dc:subject>史學</dc:subject>
     <dc:language>zh</dc:language>
-    <dc:identifier opf:scheme="calibre">f0e19d34-fe75-4eb0-be16-d8dfa21365cf</dc:identifier>
-    <dc:identifier opf:scheme="NEW_DOUBAN">5394619</dc:identifier>
-    <dc:identifier opf:scheme="ISBN">9789570525229</dc:identifier>
+    <dc:identifier opf:scheme="calibre">62943158-51b8-41ff-b362-4432592b4cd6</dc:identifier>
     <meta name="calibre:title_sort" content="史記"/>
-    <meta name="calibre:author_link_map" content="{&quot;司馬遷&quot;: &quot;&quot;}"/>
+    <meta name="calibre:author_link_map" content="{&quot;司馬遷&quot;: &quot;&quot;, &quot;裴駰&quot;: &quot;&quot;, &quot;司馬貞&quot;: &quot;&quot;, &quot;張守節&quot;: &quot;&quot;}"/>
     <meta name="calibre:series" content="百衲本二十四史"/>
     <meta name="calibre:series_index" content="1.0"/>
     <meta name="cover" content="cover"/>
+    <meta name="calibre:rating" content="10.0"/>
   </metadata>
   <manifest>
     <item id="x131.htm" href="Text/131.htm" media-type="application/xhtml+xml"/>
