@@ -381,5 +381,6 @@ p:hover .gg-link {
   visibility: visible;
 }
 .shu-ming {
-  text-decoration: currentColor wavy underline 1px;
+  text-decoration: currentColor wavy underline;
+  text-decoration-thickness: 1px;
 }
