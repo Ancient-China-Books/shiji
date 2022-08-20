@@ -170,7 +170,8 @@
     <item href="OEBPS/cover.jpg" id="cover" media-type="image/jpeg"/>
     <item id="id2" href="FSung-2.ttf" media-type="application/x-font-truetype"/>
     <item id="id3" href="FSung-F.ttf" media-type="application/x-font-truetype"/>
-    <item id="id" href="NotoSerifTC-Medium.otf" media-type="application/vnd.ms-opentype"/>
+    <item id="noto-sc" href="NotoSerifSC-Medium.otf" media-type="application/vnd.ms-opentype"/>
+    <item id="biaodian" href="biaodian.otf" media-type="application/vnd.ms-opentype"/>
     <item id="id4" href="Styles/main.js" media-type="application/javascript"/>
   </manifest>
   <spine toc="ncx" page-progression-direction="ltr">
