@@ -146,7 +146,6 @@ input:invalid, textarea:invalid {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-  word-break: break-word;
 }
 td {
   vertical-align: top;
