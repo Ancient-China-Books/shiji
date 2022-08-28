@@ -49,13 +49,13 @@ jobs:
          RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
          RCLONE_CONFIG_PASS: ${{ secrets.RCLONE_CONFIG_PASS }}
         with:
-          args: copyto shiji.epub freemdict:/Ancient-China-Books/史記.epub
+          args: copyto --ignore-errors shiji.epub freemdict:/Ancient-China-Books/史記.epub
       - name: Sync vst to Freemdict
         uses: wei/rclone@v1
         env:
          RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
          RCLONE_CONFIG_PASS: ${{ secrets.RCLONE_CONFIG_PASS }}
         with:
-          args: copyto shiji-vst.epub freemdict:/Ancient-China-Books/史記-豎排.epub
+          args: copyto --ignore-errors shiji-vst.epub freemdict:/Ancient-China-Books/史記-豎排.epub
 
 
