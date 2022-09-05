@@ -380,10 +380,10 @@ p:before{
 p:hover .gg-link {
   visibility: visible;
 }
-.shu-ming {
+/*.shu-ming {
   text-decoration: currentColor wavy underline;
   text-decoration-thickness: 1px;
-}
+}*/
 .jiaozhusup {
   font-size: 12px;
   color: #B9584E;
