@@ -2,25 +2,25 @@
 <package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="uTYxUxj8FQqUHKlf6ACUSyB">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
     <dc:title>史記</dc:title>
-    <dc:creator opf:role="aut" opf:file-as="司馬遷 &amp; 裴駰 &amp; 司馬貞 &amp; 張守節">司馬遷</dc:creator>
-    <dc:creator opf:role="aut">裴駰</dc:creator>
-    <dc:creator opf:role="aut">司馬貞</dc:creator>
-    <dc:creator opf:role="aut">張守節</dc:creator>
+    <dc:creator opf:role="aut" opf:file-as="西漢·司馬遷 &amp; 南朝宋·裴駰 &amp; 唐·司馬貞 &amp; 唐·張守節">西漢·司馬遷</dc:creator>
+    <dc:creator opf:role="aut">南朝宋·裴駰</dc:creator>
+    <dc:creator opf:role="aut">唐·司馬貞</dc:creator>
+    <dc:creator opf:role="aut">唐·張守節</dc:creator>
     <dc:date>0101-01-01T00:00:00+00:00</dc:date>
     <dc:identifier id="uTYxUxj8FQqUHKlf6ACUSyB" opf:scheme="uuid">uTYxUxj8FQqUHKlf6ACUSyB</dc:identifier>
     <dc:description>&lt;div&gt;
 &lt;p&gt;太史公書之專稱。漢司馬遷著，一百三十篇。原名太史公書。自隋書經籍志標立史部，以史記居首，遂成定名。記事起自黃帝，止於漢武，首尾共約三千年。採用本紀、表、書、世家、列傳體裁，是我國第一部紀傳體通史。取材豐富，保存了古代至漢武時止的較爲系統的珍貴資料。文字語言生動、形象鮮明，在文學史上也有重要地位。據漢書司馬遷傳説原書有十篇“有錄無書”，三國魏張晏説亡失的十篇爲景紀、武紀、禮書、樂書、兵書(律書)、漢興以來將相年表、日者傳、三王世家、龜策列傳、傅靳列傳。元帝成帝間，博士褚少孫補寫各篇。後人爲本書注釋的主要有南朝宋裴駰的史記集解、唐司馬貞的史記索隱、張守節的史記正義，至北宋時，開始把三家注散列在正文下，合爲一編。通行的有殿本、百衲本，新中國成立後中華書局出版了校點本。&lt;/p&gt;
 &lt;p&gt;本電子書基於「漢川草廬」重製電子版。&lt;/p&gt;&lt;/div&gt;</dc:description>
-    <dc:contributor opf:role="bkp">calibre (6.3.0) [https://calibre-ebook.com]</dc:contributor>
+    <dc:contributor opf:role="bkp">calibre (6.4.0) [https://calibre-ebook.com]</dc:contributor>
     <dc:subject>古籍</dc:subject>
     <dc:subject>史部</dc:subject>
     <dc:subject>百衲本</dc:subject>
     <dc:subject>史記</dc:subject>
     <dc:subject>二十四史</dc:subject>
     <dc:language>zh</dc:language>
-    <dc:identifier opf:scheme="calibre">62943158-51b8-41ff-b362-4432592b4cd6</dc:identifier>
+    <dc:identifier opf:scheme="calibre">a9e0736d-9e48-4615-8157-93b067f849f2</dc:identifier>
     <meta name="calibre:title_sort" content="史記"/>
-    <meta name="calibre:author_link_map" content="{&quot;司馬遷&quot;: &quot;&quot;, &quot;裴駰&quot;: &quot;&quot;, &quot;司馬貞&quot;: &quot;&quot;, &quot;張守節&quot;: &quot;&quot;}"/>
+    <meta name="calibre:author_link_map" content="{&quot;西漢·司馬遷&quot;: &quot;&quot;, &quot;南朝宋·裴駰&quot;: &quot;&quot;, &quot;唐·司馬貞&quot;: &quot;&quot;, &quot;唐·張守節&quot;: &quot;&quot;}"/>
     <meta name="calibre:series" content="百衲本二十四史"/>
     <meta name="calibre:series_index" content="1.0"/>
     <meta name="cover" content="cover"/>
@@ -168,10 +168,10 @@
     <item id="boilerplate.css" href="Styles/boilerplate.css" media-type="text/css"/>
     <item id="Layout01.css" href="Styles/Layout01.css" media-type="text/css"/>
     <item href="OEBPS/cover.jpg" id="cover" media-type="image/jpeg"/>
+    <item id="biaodian" href="biaodian.otf" media-type="application/vnd.ms-opentype"/>
     <item id="id2" href="FSung-2.ttf" media-type="application/x-font-truetype"/>
     <item id="id3" href="FSung-F.ttf" media-type="application/x-font-truetype"/>
     <item id="noto-sc" href="NotoSerifSC-Medium.otf" media-type="application/vnd.ms-opentype"/>
-    <item id="biaodian" href="biaodian.otf" media-type="application/vnd.ms-opentype"/>
     <item id="id4" href="Styles/main.js" media-type="application/javascript"/>
   </manifest>
   <spine toc="ncx" page-progression-direction="ltr">
