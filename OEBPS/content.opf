@@ -173,7 +173,7 @@
     <item id="noto-sc" href="NotoSerifSC-Medium.otf" media-type="application/vnd.ms-opentype"/>
     <item id="id4" href="Styles/main.js" media-type="application/javascript"/>
   </manifest>
-  <spine toc="ncx" page-progression-direction="ltr">
+  <spine toc="ncx" page-progression-direction="rtl">
     <itemref idref="x131.htm"/>
     <itemref idref="x132.htm"/>
     <itemref idref="x133.htm"/>
