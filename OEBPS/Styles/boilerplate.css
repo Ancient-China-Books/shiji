@@ -402,3 +402,7 @@ h2 {
   margin: 0;
   padding: 0;
 }
+
+span.num {
+  -webkit-text-combine: horizontal;
+}
