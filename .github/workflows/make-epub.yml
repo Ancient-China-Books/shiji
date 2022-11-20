@@ -43,19 +43,19 @@ jobs:
          RCLONE_CONFIG_PASS: ${{ secrets.RCLONE_CONFIG_PASS }}
         with:
           args: copyto shiji-vst.epub gdrive:/古籍共享电子书计划/史記-豎排.epub
-      - name: Sync to Freemdict
+      - name: Sync to Onedrive
         uses: wei/rclone@v1
         env:
          RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
          RCLONE_CONFIG_PASS: ${{ secrets.RCLONE_CONFIG_PASS }}
         with:
-          args: copyto --ignore-errors shiji.epub freemdict:/古籍共享电子书计划/史記.epub
-      - name: Sync vst to Freemdict
+          args: copyto --ignore-errors shiji.epub onedrive:/古籍共享电子书计划/史記.epub
+      - name: Sync vst to Onedrive
         uses: wei/rclone@v1
         env:
          RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
          RCLONE_CONFIG_PASS: ${{ secrets.RCLONE_CONFIG_PASS }}
         with:
-          args: copyto --ignore-errors shiji-vst.epub freemdict:/古籍共享电子书计划/史記-豎排.epub
+          args: copyto --ignore-errors shiji-vst.epub onedrive:/古籍共享电子书计划/史記-豎排.epub
 
 
